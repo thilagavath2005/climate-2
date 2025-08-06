@@ -1,0 +1,15 @@
+{
+  "filename": "gpt_dataset.csv",
+  "rows": 100,
+  "columns": 6,
+  "column_names": [
+    "Date",
+    "Temperature_C",
+    "Precipitation_mm",
+    "CO2_ppm",
+    "Humidity_percent",
+    "LandUseIndex"
+  ],
+  "upload_time": "2025-08-05T18:24:20.814411",
+  "file_size": 10450
+}

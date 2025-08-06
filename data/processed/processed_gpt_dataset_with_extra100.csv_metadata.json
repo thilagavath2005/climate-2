@@ -1,0 +1,18 @@
+{
+  "original_file": "gpt_dataset_with_extra100.csv",
+  "processed_file": "processed_gpt_dataset_with_extra100.csv",
+  "preprocessing_options": {
+    "handle_missing": "fill_median",
+    "scale_data": false,
+    "feature_engineering": false
+  },
+  "original_shape": [
+    200,
+    6
+  ],
+  "processed_shape": [
+    200,
+    6
+  ],
+  "processing_time": "2025-08-06T13:24:24.161601"
+}

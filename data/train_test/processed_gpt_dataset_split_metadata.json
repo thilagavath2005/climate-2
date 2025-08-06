@@ -1,0 +1,30 @@
+{
+  "source_file": "processed_gpt_dataset.csv",
+  "target_column": "Temperature_C",
+  "test_size": 0.2,
+  "random_state": 42,
+  "train_file": "processed_gpt_dataset_train.csv",
+  "test_file": "processed_gpt_dataset_test.csv",
+  "split_info": {
+    "total_samples": 100,
+    "train_samples": 80,
+    "test_samples": 20,
+    "train_percentage": 80.0,
+    "test_percentage": 20.0,
+    "target_distribution": {
+      "train": {
+        "mean": 24.042956850633555,
+        "std": 8.792130860049927,
+        "min": 10.165663513708072,
+        "max": 39.60660809801552
+      },
+      "test": {
+        "mean": 24.355284104197175,
+        "std": 9.670794618442654,
+        "min": 10.617534828874074,
+        "max": 38.4665661176
+      }
+    }
+  },
+  "split_time": "2025-08-05T18:24:36.086019"
+}

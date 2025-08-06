@@ -1,0 +1,18 @@
+{
+  "original_file": "gpt_dataset.csv",
+  "processed_file": "processed_gpt_dataset.csv",
+  "preprocessing_options": {
+    "handle_missing": "drop",
+    "scale_data": false,
+    "feature_engineering": false
+  },
+  "original_shape": [
+    100,
+    6
+  ],
+  "processed_shape": [
+    100,
+    6
+  ],
+  "processing_time": "2025-08-05T18:24:27.071367"
+}

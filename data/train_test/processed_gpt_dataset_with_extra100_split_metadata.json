@@ -1,0 +1,30 @@
+{
+  "source_file": "processed_gpt_dataset_with_extra100.csv",
+  "target_column": "Precipitation_mm",
+  "test_size": 0.2,
+  "random_state": 42,
+  "train_file": "processed_gpt_dataset_with_extra100_train.csv",
+  "test_file": "processed_gpt_dataset_with_extra100_test.csv",
+  "split_info": {
+    "total_samples": 200,
+    "train_samples": 160,
+    "test_samples": 40,
+    "train_percentage": 80.0,
+    "test_percentage": 20.0,
+    "target_distribution": {
+      "train": {
+        "mean": 93.30555695692696,
+        "std": 50.04083478330154,
+        "min": 1.390426106238141,
+        "max": 197.1300908221201
+      },
+      "test": {
+        "mean": 99.08897737106062,
+        "std": 50.64737329243051,
+        "min": 7.377389470906559,
+        "max": 187.3459977473469
+      }
+    }
+  },
+  "split_time": "2025-08-06T13:24:34.647976"
+}
